@@ -1,0 +1,20 @@
+{
+  "name": "multi-line",
+  "version": "1.0.0",
+  "description": "Dropdown select widget for Kibana dashboards",
+  "main": "index.js",
+  "kibana": {
+    "version": "6.2.2"
+  },
+  "scripts": {
+    "start": "plugin-helpers start",
+    "build": "plugin-helpers build",
+    "postinstall": "plugin-helpers postinstall"
+  },
+  "dependencies": {
+    "ui-select": "^0.19.5"
+  },
+  "devDependencies": {
+    "@elastic/plugin-helpers": "6.1.1"
+  }
+}
